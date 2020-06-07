@@ -1,0 +1,41 @@
+input{
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 48px;
+    width: 440px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #666;
+}
+
+button{
+    margin-top: 10px;
+    border: 0;
+    border-radius: 4px;
+    height: 48px;
+    width: 100px;
+    font-size: 16px;
+    background: #C23263;
+    font-weight: bold;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.first-column, .second-column{
+    color:red;
+    margin-top: 50px;
+}
+
+.first-column{
+
+}
+
+.second-column{
+    
+}
