@@ -1,3 +1,13 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(248, 244, 244);
+}
+
 input{
     margin-top: 20px;
     border: 1px solid #ddd;
@@ -27,15 +37,61 @@ button{
     justify-content: center;
 }
 
+
 .first-column, .second-column{
-    color:red;
     margin-top: 50px;
 }
 
 .first-column{
-
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: #f3e36c;
+    width: 30%;
 }
 
 .second-column{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #FFF;
+    width: 35%;
     
 }
+
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.name{
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    color: #FFF;
+    font-size: 40px;
+    text-transform: capitalize;
+    padding-left: 15px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.number{
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    color: #FFF;
+    font-size: 25px;
+    text-transform: capitalize;
+    padding-right: 15px;
+    padding-top: 28px;
+    font-weight: bold;
+}
+
+.img{
+    height: 250px;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+planta: #7ADE85;
+eletrico: #f3e36c;
+
+*/

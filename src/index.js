@@ -4,9 +4,15 @@
     const search_button = document.querySelector("#search");
     const name = document.querySelector("#name");
     const number = document.querySelector("#number");
+    const img = document.querySelector("#img");
 
     const apiUrl = 'https://pokeapi.co/api/v2/pokemon';
 
+    function init(){
+        getPokemon(25);
+    };
+
+    init();
 
     search_button.addEventListener("click", function(){
         //typeof search_id === number && search_id <= 807
@@ -33,8 +39,9 @@
         const response = await fetch(`${apiUrl}/${id}`);
         const data = await response.json();
 
-        // name.textContent = data.name;
-        // number.textContent = data.id;
+        name.textContent = data.name;
+        number.textContent = "#"+data.id;
+        img.src = data.sprites.front_default;
 
         console.log(data.types.map(item => ' ' + item.type.name).toString());
 
