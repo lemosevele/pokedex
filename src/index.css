@@ -26,7 +26,7 @@ button{
     height: 48px;
     width: 100px;
     font-size: 16px;
-    background: #C23263;
+    background: #685d61;
     font-weight: bold;
     color: #FFF;
     cursor: pointer;
@@ -40,6 +40,7 @@ button{
 
 .first-column, .second-column{
     margin-top: 50px;
+    height: 400px;
 }
 
 .first-column{
@@ -90,6 +91,23 @@ button{
     margin-right: auto;
 }
 
+.informations{
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    text-align: justify;
+
+}
+
+.informations p{
+    font-weight: bold;
+    display: inline;
+}
+
+.type{
+    height: 10%;
+}
 /*
 planta: #7ADE85;
 eletrico: #f3e36c;
